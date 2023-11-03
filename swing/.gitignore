@@ -1,0 +1,23 @@
+# Ignore all compiled class files
+*.class
+
+# Ignore Maven build artifacts
+target/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore local environment configuration
+.env
+
+# Ignore test data
+test-data/
+
+# Ignore any other temporary or generated files
+*.tmp
+*.bak
+*.swp
+
+# Ignore log files
+*.log
