@@ -1,6 +1,6 @@
 # JAVA SWING TEST PROJECT
 
-## This is a template for a Java project with Maven
+## This is a template for a Swing Java project with Maven
 
 ### Making Site documentation
 Plugin used :
