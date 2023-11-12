@@ -40,3 +40,4 @@ This project is an example of a Maven template for a Java project.
 ## Resources
 
 - https://maven.apache.org/plugins/index.html
+- https://mvnrepository.com/
