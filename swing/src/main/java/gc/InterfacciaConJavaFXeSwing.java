@@ -18,12 +18,26 @@ import java.util.Random;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * The class InterfacciaConJavaFXeSwing creates a JavaFX application that displays a circle and a
+ * button, allowing the user to change the color of the circle when the button is clicked.
+ */
 public class InterfacciaConJavaFXeSwing extends Application {
 
+    /**
+     * The main function in Java that launches the program.
+     */
     public static void main(String[] args) {
         launch(args);
     }
 
+    /**
+     * This function creates a JavaFX application that displays a circle and a button, and allows the
+     * user to change the color of the circle when the button is clicked.
+     * 
+     * @param primaryStage The primary stage is the main window of the JavaFX application. It
+     * represents the top-level container for all the JavaFX content.
+     */
     @Override
     public void start(Stage primaryStage) {
         Circle circle = new Circle(50, Color.RED);
