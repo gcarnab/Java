@@ -1,5 +1,10 @@
 # GCARNAB JAVA REPOSITORY
 
-1. swing : folder containing Java Swing test project
-2. 
-3. 
+---
+
+By GCARNAB <a href='https://github.com/gcarnab'> <img src='https://avatars.githubusercontent.com/u/15156604?v=4' width="50"/></a>
+
+---
+
+1. gc_java_template_mvn : folder containing a template for a Java project with Maven
+2. swing : folder containing Java Swing test project
