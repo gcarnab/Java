@@ -8,6 +8,15 @@ ___
 
 This project is an example of a Maven template for a Java project.
 
+### Features 
+
+- LOG4J support : https://logging.apache.org/log4j/2.x/maven-artifacts.html
+- Properties file support
+- JUnit support : 
+    1. https://junit.org/junit5/docs/current/user-guide/
+    2. https://central.sonatype.com/artifact/org.junit.platform/junit-platform-runner
+    3. https://maven.apache.org/surefire/maven-surefire-plugin/examples/junit-platform.html
+
 
 ## Maven plugins
 
@@ -21,6 +30,7 @@ This project is an example of a Maven template for a Java project.
 - maven-site-plugin: questo plugin genera la documentazione del progetto. (https://maven.apache.org/plugins/maven-site-plugin/usage.html)
 - maven-project-info-reports-plugin: questo plugin genera vari rapporti sulla configurazione del progetto.
 - maven-javadoc-plugin: Generate Javadoc for the project. (https://maven.apache.org/plugins/maven-javadoc-plugin/usage.html)
+
 
 ## Maven plugin usage
 
