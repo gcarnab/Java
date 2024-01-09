@@ -10,6 +10,7 @@ By GCARNAB <a href='https://github.com/gcarnab'> <img src='https://avatars.githu
 1. **crudh2** : folder containing a CRUD web app using Spring Boot with Maven and H2 in memory DB
 
 ## Resources 
+* OFFICIAL DOCS : https://spring.io/projects/spring-boot/
 * OFFICIAL GUIDES :
     - https://spring.io/guides/gs/rest-service/
 * REST CRUD H2 : https://www.javaguides.net/2020/04/spring-boot-h2-jpa-hibernate-restful-crud-api-tutorial.html
@@ -20,6 +21,9 @@ By GCARNAB <a href='https://github.com/gcarnab'> <img src='https://avatars.githu
 * CRUD 
     - https://javatechonline.com/spring-boot-mvc-crud-example/
 
+## Video Tutorial Spring Boot
+- https://www.youtube.com/watch?v=CMHiCpuZq6M
+-
 
 ## Tutorial
 
