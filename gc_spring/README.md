@@ -8,6 +8,7 @@ By GCARNAB <a href='https://github.com/gcarnab'> <img src='https://avatars.githu
 ## Contents
 
 1. **crudh2** : folder containing a CRUD web app using Spring Boot with Maven and H2 in memory DB
+2. **gc_graphql** : older containing a simple app using GraphQL
 
 ## Resources 
 * OFFICIAL DOCS : https://spring.io/projects/spring-boot/
