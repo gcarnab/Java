@@ -1,0 +1,9 @@
+### VS Code ###
+.vscode/
+.mvn/
+mvnw*
+tempCodeRunnerFile.xml
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
