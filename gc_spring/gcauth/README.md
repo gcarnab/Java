@@ -12,6 +12,7 @@ By GCARNAB <a href='https://github.com/gcarnab'> <img src='https://avatars.githu
 
 ## Resources
 <img src='img\Screenshot_01.png' width="300"/>
+<img src='img\Screenshot_02.png' width="300"/>
 
 ## Tutorial
 - https://youtu.be/9J-b6OlPy24?si=4v9-TWvj8E0QMH8y

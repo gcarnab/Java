@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ContentController {
 
-  @GetMapping("/home")
+  @GetMapping("/")
   public String handleWelcome() {
     return "home";
   }

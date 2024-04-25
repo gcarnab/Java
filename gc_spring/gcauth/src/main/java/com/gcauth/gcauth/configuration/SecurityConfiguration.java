@@ -17,6 +17,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
+import com.gcauth.gcauth.MyAuthenticationSuccessHandler;
 import com.gcauth.gcauth.service.MyUserDetailService;
 
 @Configuration
@@ -29,21 +30,20 @@ public class SecurityConfiguration {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
         return httpSecurity
-                .csrf(AbstractHttpConfigurer::disable)
+                .csrf(AbstractHttpConfigurer::disable) // Cross-Site Request Forgery (CSRF)
                 .authorizeHttpRequests(registry -> {
                     registry.requestMatchers("/home", "/register/**").permitAll();
                     registry.requestMatchers("/admin/**").hasRole("ADMIN");
                     registry.requestMatchers("/user/**").hasRole("USER");
                     registry.anyRequest().authenticated();
                 })
-                .formLogin(AbstractAuthenticationFilterConfigurer::permitAll)
-                // .formLogin(httpSecurityFormLoginConfigurer -> {
-                // httpSecurityFormLoginConfigurer
-                // .loginPage("/login")
-                // .successHandler(new AuthenticationSuccessHandler())
-                // .permitAll();
-                // })
-
+                // .formLogin(AbstractAuthenticationFilterConfigurer::permitAll)
+                .formLogin(httpSecurityFormLoginConfigurer -> {
+                    httpSecurityFormLoginConfigurer
+                            .loginPage("/login")
+                            .successHandler(new MyAuthenticationSuccessHandler())
+                            .permitAll();
+                })
                 .build();
     }
 
